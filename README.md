@@ -1,10 +1,10 @@
 # base-l01-2020
-The recomended way to execute the notebooks is by using `viertualenv`.
-To initialize a virtual environment please run
+The recommended way to execute the notebooks is by using [`viertualenv`](https://docs.python.org/3/tutorial/venv.html).
+To initialize a virtual environment, please run
 ```
 python3 -m venv /path/to/venv/
 ```
-To activate the created `venv` please run
+To activate the created `venv`, please run
 ```
 source /path/to/venv/bin/activate
 ```
@@ -13,8 +13,7 @@ To exit the environment run
 deactivate
 ```
 
-All the required packages can be installed with
+Install all the required packages with
 ```
 pip install -r requirements.txt
 ```
-
